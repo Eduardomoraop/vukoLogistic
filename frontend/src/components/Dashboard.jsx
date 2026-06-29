@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Header from "./Header";
-import InventoryTable from "./InventoryTable";
+import Header from "./Header.jsx";
+import InventoryTable from "./InventoryTable.jsx";
 import { getItems } from "../services/api";
 
 const Dashboard = () => {
