@@ -1,11 +1,11 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Dashboard from '../components/Dashboard.jsx';
-import Inventario from '../components/Inventario.jsx';
-import Movimientos from '../components/Movimientos.jsx';
-import Reportes from '../components/Reportes.jsx';
-import Configuracion from '../components/Configuracion.jsx';
-import Kpis from '../components/Kpis.jsx';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "../components/Dashboard.jsx";
+import Inventario from "../components/Inventario.jsx";
+import Movimientos from "../components/Movimientos.jsx";
+import Reportes from "../components/Reportes.jsx";
+import Configuracion from "../components/Configuracion.jsx";
+import Kpis from "../components/Kpis.jsx";
 
 const AppRoutes = () => (
   <Routes>

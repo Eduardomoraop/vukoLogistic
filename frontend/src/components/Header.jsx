@@ -2,8 +2,12 @@ const Header = ({ onNewEntry, onNewExit }) => {
   return (
     <header className="mb-10 p-6 bg-white rounded-2xl shadow-lg border-l-8 border-teal-600 flex items-center justify-between">
       <div>
-        <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">VukoLogistic ERP</h1>
-        <p className="text-slate-600 mt-1">Panel de Control - Inventario Actual</p>
+        <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">
+          VukoLogistic ERP
+        </h1>
+        <p className="text-slate-600 mt-1">
+          Panel de Control - Inventario Actual
+        </p>
       </div>
       <div className="flex gap-2">
         <button
